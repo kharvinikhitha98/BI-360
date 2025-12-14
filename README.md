@@ -2,40 +2,39 @@
 
 ## Project Overview
 
-AtliQ Hardware is growing rapidly in the recent years, and they have decided to implement the data analytics using PowerBi in their company for the first time to surpass their competitors in the market and to make data driven decisions. This project is hoped to give answers to the questions of stakeholder in terms all the aspects like finance, sales, marketing and supply chain.
+AtliQ Hardware is growing rapidly in the recent years and they have decided to implement the data analytics using PowerBi in their company for the first time to surpass their competitors in the market and to make data driven decisions. This project is hoped to give answers to the questions of stakeholder in terms all the aspects like finance, sales, marketing and supply chain.
 
-I worked on this project by following the Codebasics PowerBi Course, Link to the course is [here](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project)
+I worked on this project by following the Codebasics Power BI Course, Link to the course is [here](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project)
 
 [Live Report Link](https://www.novypro.com/project/atliq-hardware-business-insights-360)
 
 ## Tech stacks
 
 - SQL
-- PowerBi Desktop
+- PowerBI Desktop
 - Excel
 - DAX language
 - DAX studio (for optimizing the report)
-- Project charter file
 
-## PowerBI techniques Learnt
+## PowerBI techniques learnt
 
-- What are all the questions should be asked before staring the project
-- Creating calculated columns
-- creating measure using DAX language
-- Data modeling
-- Using Bookmarks to switch between two visuals
-- Page navigation with buttons
-- Using divide function to prevent zero division errors
-- creating date table using m language
-- Dynamic titles based on the applied filters
-- Using KPI indicators
-- Conditional formatting the values in visuals using icons or background color
-- Data validation techniques
-- PowerBi services
-- Publishing reports to PowerBi services
-- Setting up personal gateway to set up the auto refresh of data
-- PowerBi App creation
-- Collaboration, workspace, access permissions in PowerBi services
+- What are all the questions should be asked before staring the project.
+- Creating calculated columns.
+- Creating measures using DAX language.
+- Data modeling.
+- Using Parameters to switch between two visuals.
+- Page navigation with buttons.
+- Using divide function to prevent zero division errors.
+- Creating date table using m language.
+- Dynamic titles based on the applied filters.
+- Using KPI indicators.
+- Conditional formatting the values in visuals using icons or background color.
+- Data validation techniques.
+- PowerBI services.
+- Publishing reports to PowerBi services.
+- Setting up personal gateway to set up the auto refresh of data.
+- PowerBI App creation.
+- Collaboration, workspace, access permissions in PowerBI services.
 - And more 😅
 
 ## GitHub 
@@ -52,7 +51,7 @@ I worked on this project by following the Codebasics PowerBi Course, Link to the
 - Gross Margin
 - Net sales
 - Net profit
-- COGC - cost of goods sold
+- COGS - cost of goods sold
 - YTD - Year to Date
 - YTG - Year to Go
 - Direct
@@ -60,7 +59,7 @@ I worked on this project by following the Codebasics PowerBi Course, Link to the
 - Distributors
 - Consumer
 
-## Company’s back ground
+## Company’s background
 
 AltiQ hardware is a company which has grown vastly in the recent years, and opened business all over the globe. It is a company which sells, computer and computer accessories through three mediums/channel
 
@@ -72,28 +71,25 @@ Recently the company has faced a unforeseen loss by opening store in America bas
 
 Project kick off session, where you should get clear of for what and why this project and all other questions you have with regards to the project
 
-### Questions to ask before starting with dashboard
+## Questions to ask before starting with dashboard
 
 - What is the objective of building this PowerBi dashboard?
 - In what terms the success of this project will be measured?
 - What will be time dead-line of the project?
-- do the stakeholders expecting pre-view before the actual release?
-- What are all the hopes stakeholders have out of this project?
+- Do the stakeholders expecting pre-view before the actual release?
+- What are all the expectations stakeholders have out of this project?
 - what are all fears the stakeholder have in terms of building this dashboard?
-- Who are all will be using this dashboard and for what purpose?
-- what are all expectation the stakeholders have, by the completion of this project?
+- Who will be using this dashboard and for what purpose?
 - What can go wrong while building this project?
-- what are all the resources/ data needed to build this dashboard?
-- is there any inputs from stakeholders in terms of design and views of the dashboard?
+- What are all the resources/ data needed to build this dashboard?
+- Is there any inputs from stakeholders in terms of design and views of the dashboard?
 
-After the project kick off meetings, the data engineering team has given the data as per the request of data analytics team, let’s explore them.
+After the project kick off meetings, the data engineering team has given the data as per the request of data analytics team.
 
-### Dataset **Understanding.**
+## **Dataset Understanding**
 
 Understanding what data is available will be more helpful while doing analysis. before jumping on to the analysis get good understanding of what are data available.
-
 Dimension table : It will have the static data like details of customer and products
-
 Fact table : It will have the data about the transactions  
 
 - gdb041:
@@ -149,7 +145,7 @@ Fact table : It will have the data about the transactions
     - Post_invoice_deductions
         - Post invoice deductions and other deductions details
 
-## Importing data into PowerBi
+## Importing data into PowerBI
 
 - As the database is MySQL in this project, we need to import the datasets from Mysql database to PowerBi by providing the Database access credential
 
@@ -158,19 +154,14 @@ Fact table : It will have the data about the transactions
 - Data modeling plays a vital role and is considered as the basement of report. All the visuals will be build upon the data model.
 - Poor data modeling affects the over all performance of the report.
 - Following Good practices of data modeling is must. Refer this page to get to know the good practices [Blog](https://addendanalytics.com/blog/data-modelling-best-practices/)
-- In this project, we have followed Snowfall data modeling method.
+- In this project, we have followed Snowflake Schema.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+![data model](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/Data_model.png)
 
-### Dashboard designing
+## Homepage view
 
-Based on the mock ups received as requirement, the team will start designing the visuals and create measure as and when required
+In Homepage view, all the views button will be available. User will land on specific view page by clicking the button 
 
-## Home view
-
-In Home view, all the views button will be available. User will land on specific view page by clicking the button 
-
-- Info
 - Finance View
 - Sales View
 - Marketing View
@@ -179,40 +170,37 @@ In Home view, all the views button will be available. User will land on specific
 - Products
 - Support
 
-## Overall Report
+## Homepage
 
-![Overall Report.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Overall.gif)
-
-## Info Page
-
-![Info.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Info.gif)
+![homepage.gif](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/1.%20Homepage.gif)
 
 ## Finance View
 
-![Finace.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Finace.gif)
+![Finace.gif](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/2.%20Finance.gif)
+
 ## Sales View
 
-![Sales.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Sales.gif)
+![Sales.gif](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/3.%20Sales.gif)
 
 ## Marketing View
 
-![Marketing.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Marketing.gif)
+![Marketing.gif](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/4.%20Marketing.gif)
 
 ## Supply chain View
 
-![Supply chain.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/supply%20chain.gif)
+![Supply chain.gif](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/5.%20Supply%20Chain.gif)
 
 ## Executive View
 
-![Executive.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Executive.gif)
+![Executive.gif](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/6.%20Executive.gif)
 
-## Products
+## Product View
 
-![Products](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Products%20View.gif)
+![Products](https://github.com/kharvinikhitha98/BI-360/blob/main/Resource/7.%20Products%20View.gif)
 
-you can find the full report file here : [Report](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix)
+*You can find the full report file here : [Report](https://github.com/kharvinikhitha98/BI-360/blob/main/Report/BI_360.pbix)*
 
 
 ## Project Outcome
 
-By using this report, decisions can be taken based on the data. Further it will help in answering n number of why questions based on the situations.
+By using this report, decisions can be taken based on the data. Further it will help in answering n number of questions, where answers are backed by data.
