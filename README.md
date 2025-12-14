@@ -35,7 +35,6 @@ I worked on this project by following the Codebasics Power BI Course, Link to th
 - Setting up personal gateway to set up the auto refresh of data.
 - PowerBI App creation.
 - Collaboration, workspace, access permissions in PowerBI services.
-- And more 😅
 
 ## GitHub 
 
